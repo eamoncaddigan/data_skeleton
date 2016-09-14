@@ -1,5 +1,6 @@
 # data_skeleton
-A skeleton file hierarchy for setting up data analysis projects.
+
+A skeletal file hierarchy for setting up data analysis projects.
 
 Clone this repo when you're getting ready to deal with a new set of data. This is inspired by approaches like [ProjectTemplate](http://projecttemplate.net/getting_started.html), but is more appropriate for my own analyses. It might not be exactly what you need, but it might be a place to start.
 
@@ -25,3 +26,14 @@ The project root directory contains the following folders:
 
    It would be nice if collaborators (and other interested people) meant what they said when they asked for "raw data". This directory contains scripts that dump data for sharing.
 
+# How to use this
+
+Clone this repository and set up a new one (replace `yourproject` with the name of the a folder for your project):
+
+```
+git clone https://github.com/eamoncaddigan/data_skeleton.git yourproject
+cd yourproject
+rm -rf .git/
+git init
+git add .
+```
